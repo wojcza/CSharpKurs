@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Speech.Synthesis;
 
-namespace StudentDiary
+namespace Typy
 {
     class Program
     {
@@ -103,8 +102,8 @@ namespace StudentDiary
             Console.WriteLine("Najniższa ocena to: " + stats.MinGrade);
             Console.ReadKey();
 
-            SpeechSynthesizer synt = new SpeechSynthesizer();
-            synt.Speak("Cześć Beatka. Jak się czujesz?. Czego tu");
+            //SpeechSynthesizer synt = new SpeechSynthesizer();
+            //synt.Speak("Cześć Beatka. Jak się czujesz?. Czego tu");
 
             //float avg = diary.CalculateAverage();
             //float max = diary.GiveMaxRating();
